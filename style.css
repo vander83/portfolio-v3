@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #fff;
   background-color: #232323;
@@ -34,7 +38,7 @@ a:hover {
 
 .container {
   max-width: 1280px;
-  padding: 2rem 1rem;
+  padding: 2rem;
   margin: 0 auto;
 }
 
@@ -199,7 +203,7 @@ header nav ul li {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(2, 1fr);
-  /* visibility: hidden; */
+  scroll-margin-top: 80px;
 }
 
 .about-text {
@@ -214,6 +218,7 @@ header nav ul li {
   height: 100%;
   max-width: 450px;
   margin: 0 auto;
+  padding-top: 2rem;
 }
 
 .about-image img {
@@ -226,6 +231,7 @@ header nav ul li {
 
 .projects {
   color: #fff;
+  scroll-margin-top: 80px;
 }
 
 .project {
@@ -249,13 +255,15 @@ header nav ul li {
 /* ======= */
 
 .contact {
-  background: url(img/contact-bg-5.png) center center/cover;
   font-size: 1.5rem; 
-  padding: 4rem 0 !important;
+  /* padding: 4rem 0 !important; */
+  background: url(img/contact-bg-6.png) center right/contain no-repeat;
+  scroll-margin-top: 80px;
 }
 
 .contact p {
-  max-width: 70%;
+  max-width: 60%;
+  text-shadow: 0 2px 5px rgb(0 0 0 / 50%);
 }
 
 .contact .email {
@@ -264,6 +272,8 @@ header nav ul li {
   padding: 0.25em 1.5em;
   border: 3px solid #fff;
   transition: color 250ms ease, border-color 250ms ease;
+  text-shadow: 0 2px 5px rgb(0 0 0 / 50%);
+  box-shadow: 0 2px 5px rgb(0 0 0 / 50%);
 }
 
 .email:hover {
@@ -277,6 +287,7 @@ header nav ul li {
   color: #fff;
   font-size: 3rem;
   margin-bottom: 2rem;
+  text-shadow: 0 2px 5px rgb(0 0 0 / 50%);
 }
 
 .contact-icons a {
