@@ -237,13 +237,13 @@ header nav ul li {
   /* visibility: hidden; */
   text-align: center;
   color: transparent;
-  transform: translateY(10px) translateX(-50%) scale(0.8);
+  transform: translateY(15px) translateX(-50%) scale(0.8);
   transition: all 250ms ease;
 }
 
 .toolbox-thumbnail:hover .toolbox-thumbnail-title {
   color: #fff;
-  transform: translateY(0) translateX(-50%) scale(1);  
+  transform: translateY(12px) translateX(-50%) scale(1);  
 }
 
 /* ======== */
