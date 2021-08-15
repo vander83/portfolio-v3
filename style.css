@@ -435,8 +435,6 @@ header nav ul li {
   .main-title { font-size: 1.8rem; padding-bottom: 1.5rem; }
   .main-title h1 { margin-bottom: 1.5rem; }
   .section-title { font-size: 2.2rem; margin-bottom: 1.2rem; }
-  .toolbox-thumbnails { justify-items: center; grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); }
-  .toolbox-thumbnail { height: 80px; }
   .project-image img { box-shadow: -8px 8px 0 var(--secondary-color); }
   .project-number { top: -4.5rem; left: -2.5rem; }
   .contact { background-position-x: 30vw; }
