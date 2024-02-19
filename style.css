@@ -416,7 +416,7 @@ header nav ul li {
 
 @keyframes relocate {
   to { width: 156px; top: 0; left: 0; transform: translate(0, 0); }
-  /* to { opacity: 0 } */
+  to { display: none; }
 }
 
 @keyframes reveal {
