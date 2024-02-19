@@ -423,6 +423,7 @@ header nav ul li {
 @keyframes has-loaded {
   to {
     display: none;
+  }
 }
 
 @keyframes reveal {
