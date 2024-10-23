@@ -222,8 +222,8 @@ header nav ul li {
 }
 
 .toolbox-thumbnail img {
-  height: 100%;
-  width: auto;
+  max-height: 100%;
+  max-width: 100%;
   margin: 0 auto;
   transition: all 250ms ease;
 }
